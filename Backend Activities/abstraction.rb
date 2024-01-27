@@ -1,4 +1,6 @@
 module InventoryManager
+    attr_reader :product_name, :price, :stock_quantity
+    
     def initialize(product_name, price, stock_quantity)
       @product_name = product_name
       @price = price

@@ -17,7 +17,7 @@ VALUES
     (6, 'Fin', '', 'Lam', 25, 'Manila');
 
 UPDATE students
-SET first_name = 'Pau', middle_name = '', last_name = 'Pallan', age = 25, location = 'Cavite'
+SET first_name = 'Ivan', middle_name = 'Ingram', last_name = 'Howard', age = 25, location = 'Bulacan'
 WHERE id = 1;
 
 DELETE FROM students WHERE id = (SELECT MAX(id) FROM students);

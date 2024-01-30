@@ -1,9 +1,9 @@
 CREATE TABLE students (
-    id             INTEGER                PRIMARY KEY,
+    id             integer                PRIMARY KEY,
     first_name     character varying(100) NOT NULL,
     middle_name    character varying(100) DEFAULT NULL,
     last_name      character varying(100) NOT NULL,
-    age            INTEGER,
+    age            integer                DEFAULT 0,
     location       text                   NOT NULL
 );
 

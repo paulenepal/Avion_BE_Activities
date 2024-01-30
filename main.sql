@@ -1,10 +1,10 @@
 CREATE TABLE students (
-    id INTEGER PRIMARY KEY,
-    first_name character varying(100) NOT NULL,
-    middle_name character varying(100) DEFAULT NULL,
-    last_name character varying(100) NOT NULL,
-    age INT,
-    location TEXT NOT NULL
+    id             INTEGER                PRIMARY KEY,
+    first_name     character varying(100) NOT NULL,
+    middle_name    character varying(100) DEFAULT NULL,
+    last_name      character varying(100) NOT NULL,
+    age            INTEGER,
+    location       text                   NOT NULL
 );
 
 INSERT INTO students (id, first_name, middle_name, last_name, age, location)

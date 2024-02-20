@@ -23,5 +23,5 @@ def decode(string)
     return decoded_str
 end
 
-encode("hello")
-decode("h3 th2r2")
+puts encode("hello")
+puts decode("h3 th2r2")

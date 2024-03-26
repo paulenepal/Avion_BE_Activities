@@ -1,4 +1,4 @@
-def rev_string(string)
+def reverse(string)
   reversed_array = []
   
   string_array = string.split("")
@@ -10,7 +10,5 @@ def rev_string(string)
   return reversed_string = reversed_array.join("")
 end
 
-puts rev_string('try')
-
-
-
+puts reverse('try')
+puts reverse('hello')

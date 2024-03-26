@@ -7,7 +7,7 @@ def reverse(string)
     reversed_array << element
   end
 
-  return reversed_string = reversed_array.join("")
+  reversed_string = reversed_array.join("")
 end
 
 puts reverse('try')
